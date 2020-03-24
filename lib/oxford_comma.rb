@@ -1,3 +1,7 @@
 def oxford_comma(array)
-  puts array.join
+  array.collect do |i|
+    if array.index(i) == 2
+      array[2] = ", and #{i}"
+    end
+  end
 end
