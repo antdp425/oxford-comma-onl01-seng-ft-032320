@@ -1,0 +1,12 @@
+.split converts string to array
+  hippo,giraffe,monkey,horse.split(",")
+  gives - > ["hippo","giraffe","monkey","horse"
+
+.to_a when called on range, convers range of numbers to array
+  (1..10).to_a
+    gives [1,2,3,4,5,6,7,8,9,10]
+
+.join converts array to string
+  optional argument containing a character / set of char that will be inserted between each array item
+    ["a","b","c"].join gives "abc"
+    ["a","b","c"].join(" :-) ") gives "a :-) b :-) c"
